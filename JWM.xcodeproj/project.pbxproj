@@ -1,0 +1,1751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8276FCE62E18E349009988F2 /* JWMWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8276FCC62E18E348009988F2 /* JWMWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8276FCA62E18E14B009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FC952E18E149009988F2;
+			remoteInfo = JWM;
+		};
+		8276FCB02E18E14B009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FC952E18E149009988F2;
+			remoteInfo = JWM;
+		};
+		8276FCD32E18E349009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FCC52E18E348009988F2;
+			remoteInfo = "JWMWatchApp Watch App";
+		};
+		8276FCDD2E18E349009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FCC52E18E348009988F2;
+			remoteInfo = "JWMWatchApp Watch App";
+		};
+		8276FCE42E18E349009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FCC52E18E348009988F2;
+			remoteInfo = "JWMWatchApp Watch App";
+		};
+		8276FD042E18E6A3009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FCF42E18E6A1009988F2;
+			remoteInfo = JWMmacOSApp;
+		};
+		8276FD0E2E18E6A3009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FCF42E18E6A1009988F2;
+			remoteInfo = JWMmacOSApp;
+		};
+		8276FD312E19A90C009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FD212E19A90B009988F2;
+			remoteInfo = JWMiPadApp;
+		};
+		8276FD3B2E19A90C009988F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8276FC8E2E18E149009988F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8276FD212E19A90B009988F2;
+			remoteInfo = JWMiPadApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8276FCEA2E18E349009988F2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8276FCE62E18E349009988F2 /* JWMWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8276FC962E18E149009988F2 /* JWM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FCA52E18E14B009988F2 /* JWMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FCAF2E18E14B009988F2 /* JWMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FCC62E18E348009988F2 /* JWMWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JWMWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FCD22E18E349009988F2 /* JWMWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JWMWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FCDC2E18E349009988F2 /* JWMWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JWMWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FCF52E18E6A1009988F2 /* JWMmacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWMmacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FD032E18E6A3009988F2 /* JWMmacOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMmacOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FD0D2E18E6A3009988F2 /* JWMmacOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMmacOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FD222E19A90B009988F2 /* JWMiPadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWMiPadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FD302E19A90C009988F2 /* JWMiPadAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMiPadAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8276FD3A2E19A90C009988F2 /* JWMiPadAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMiPadAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8276FC982E18E149009988F2 /* JWMiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMiOS;
+			sourceTree = "<group>";
+		};
+		8276FCA82E18E14B009988F2 /* JWMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMTests;
+			sourceTree = "<group>";
+		};
+		8276FCB22E18E14B009988F2 /* JWMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMUITests;
+			sourceTree = "<group>";
+		};
+		8276FCC72E18E348009988F2 /* JWMWatchApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "JWMWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		8276FCD52E18E349009988F2 /* JWMWatchApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "JWMWatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8276FCDF2E18E349009988F2 /* JWMWatchApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "JWMWatchApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		8276FCF62E18E6A1009988F2 /* JWMmacOSApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMmacOSApp;
+			sourceTree = "<group>";
+		};
+		8276FD062E18E6A3009988F2 /* JWMmacOSAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMmacOSAppTests;
+			sourceTree = "<group>";
+		};
+		8276FD102E18E6A3009988F2 /* JWMmacOSAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMmacOSAppUITests;
+			sourceTree = "<group>";
+		};
+		8276FD232E19A90B009988F2 /* JWMiPadApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMiPadApp;
+			sourceTree = "<group>";
+		};
+		8276FD332E19A90C009988F2 /* JWMiPadAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMiPadAppTests;
+			sourceTree = "<group>";
+		};
+		8276FD3D2E19A90C009988F2 /* JWMiPadAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JWMiPadAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8276FC932E18E149009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCA22E18E14B009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCAC2E18E14B009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCC32E18E348009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCCF2E18E349009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCD92E18E349009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCF22E18E6A1009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD002E18E6A3009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD0A2E18E6A3009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD1F2E19A90B009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD2D2E19A90C009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD372E19A90C009988F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8276FC8D2E18E149009988F2 = {
+			isa = PBXGroup;
+			children = (
+				8276FC982E18E149009988F2 /* JWMiOS */,
+				8276FCA82E18E14B009988F2 /* JWMTests */,
+				8276FCB22E18E14B009988F2 /* JWMUITests */,
+				8276FCC72E18E348009988F2 /* JWMWatchApp Watch App */,
+				8276FCD52E18E349009988F2 /* JWMWatchApp Watch AppTests */,
+				8276FCDF2E18E349009988F2 /* JWMWatchApp Watch AppUITests */,
+				8276FCF62E18E6A1009988F2 /* JWMmacOSApp */,
+				8276FD062E18E6A3009988F2 /* JWMmacOSAppTests */,
+				8276FD102E18E6A3009988F2 /* JWMmacOSAppUITests */,
+				8276FD232E19A90B009988F2 /* JWMiPadApp */,
+				8276FD332E19A90C009988F2 /* JWMiPadAppTests */,
+				8276FD3D2E19A90C009988F2 /* JWMiPadAppUITests */,
+				8276FC972E18E149009988F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8276FC972E18E149009988F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8276FC962E18E149009988F2 /* JWM.app */,
+				8276FCA52E18E14B009988F2 /* JWMTests.xctest */,
+				8276FCAF2E18E14B009988F2 /* JWMUITests.xctest */,
+				8276FCC62E18E348009988F2 /* JWMWatchApp Watch App.app */,
+				8276FCD22E18E349009988F2 /* JWMWatchApp Watch AppTests.xctest */,
+				8276FCDC2E18E349009988F2 /* JWMWatchApp Watch AppUITests.xctest */,
+				8276FCF52E18E6A1009988F2 /* JWMmacOSApp.app */,
+				8276FD032E18E6A3009988F2 /* JWMmacOSAppTests.xctest */,
+				8276FD0D2E18E6A3009988F2 /* JWMmacOSAppUITests.xctest */,
+				8276FD222E19A90B009988F2 /* JWMiPadApp.app */,
+				8276FD302E19A90C009988F2 /* JWMiPadAppTests.xctest */,
+				8276FD3A2E19A90C009988F2 /* JWMiPadAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8276FC952E18E149009988F2 /* JWM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FCB92E18E14B009988F2 /* Build configuration list for PBXNativeTarget "JWM" */;
+			buildPhases = (
+				8276FC922E18E149009988F2 /* Sources */,
+				8276FC932E18E149009988F2 /* Frameworks */,
+				8276FC942E18E149009988F2 /* Resources */,
+				8276FCEA2E18E349009988F2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FCE52E18E349009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FC982E18E149009988F2 /* JWMiOS */,
+			);
+			name = JWM;
+			packageProductDependencies = (
+			);
+			productName = JWM;
+			productReference = 8276FC962E18E149009988F2 /* JWM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8276FCA42E18E14B009988F2 /* JWMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FCBC2E18E14B009988F2 /* Build configuration list for PBXNativeTarget "JWMTests" */;
+			buildPhases = (
+				8276FCA12E18E14B009988F2 /* Sources */,
+				8276FCA22E18E14B009988F2 /* Frameworks */,
+				8276FCA32E18E14B009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FCA72E18E14B009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FCA82E18E14B009988F2 /* JWMTests */,
+			);
+			name = JWMTests;
+			packageProductDependencies = (
+			);
+			productName = JWMTests;
+			productReference = 8276FCA52E18E14B009988F2 /* JWMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8276FCAE2E18E14B009988F2 /* JWMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FCBF2E18E14B009988F2 /* Build configuration list for PBXNativeTarget "JWMUITests" */;
+			buildPhases = (
+				8276FCAB2E18E14B009988F2 /* Sources */,
+				8276FCAC2E18E14B009988F2 /* Frameworks */,
+				8276FCAD2E18E14B009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FCB12E18E14B009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FCB22E18E14B009988F2 /* JWMUITests */,
+			);
+			name = JWMUITests;
+			packageProductDependencies = (
+			);
+			productName = JWMUITests;
+			productReference = 8276FCAF2E18E14B009988F2 /* JWMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8276FCC52E18E348009988F2 /* JWMWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FCE72E18E349009988F2 /* Build configuration list for PBXNativeTarget "JWMWatchApp Watch App" */;
+			buildPhases = (
+				8276FCC22E18E348009988F2 /* Sources */,
+				8276FCC32E18E348009988F2 /* Frameworks */,
+				8276FCC42E18E348009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8276FCC72E18E348009988F2 /* JWMWatchApp Watch App */,
+			);
+			name = "JWMWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "JWMWatchApp Watch App";
+			productReference = 8276FCC62E18E348009988F2 /* JWMWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8276FCD12E18E349009988F2 /* JWMWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FCEB2E18E349009988F2 /* Build configuration list for PBXNativeTarget "JWMWatchApp Watch AppTests" */;
+			buildPhases = (
+				8276FCCE2E18E349009988F2 /* Sources */,
+				8276FCCF2E18E349009988F2 /* Frameworks */,
+				8276FCD02E18E349009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FCD42E18E349009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FCD52E18E349009988F2 /* JWMWatchApp Watch AppTests */,
+			);
+			name = "JWMWatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "JWMWatchApp Watch AppTests";
+			productReference = 8276FCD22E18E349009988F2 /* JWMWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8276FCDB2E18E349009988F2 /* JWMWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FCEE2E18E349009988F2 /* Build configuration list for PBXNativeTarget "JWMWatchApp Watch AppUITests" */;
+			buildPhases = (
+				8276FCD82E18E349009988F2 /* Sources */,
+				8276FCD92E18E349009988F2 /* Frameworks */,
+				8276FCDA2E18E349009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FCDE2E18E349009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FCDF2E18E349009988F2 /* JWMWatchApp Watch AppUITests */,
+			);
+			name = "JWMWatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "JWMWatchApp Watch AppUITests";
+			productReference = 8276FCDC2E18E349009988F2 /* JWMWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8276FCF42E18E6A1009988F2 /* JWMmacOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FD152E18E6A3009988F2 /* Build configuration list for PBXNativeTarget "JWMmacOSApp" */;
+			buildPhases = (
+				8276FCF12E18E6A1009988F2 /* Sources */,
+				8276FCF22E18E6A1009988F2 /* Frameworks */,
+				8276FCF32E18E6A1009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8276FCF62E18E6A1009988F2 /* JWMmacOSApp */,
+			);
+			name = JWMmacOSApp;
+			packageProductDependencies = (
+			);
+			productName = JWMmacOSApp;
+			productReference = 8276FCF52E18E6A1009988F2 /* JWMmacOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8276FD022E18E6A3009988F2 /* JWMmacOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FD182E18E6A3009988F2 /* Build configuration list for PBXNativeTarget "JWMmacOSAppTests" */;
+			buildPhases = (
+				8276FCFF2E18E6A3009988F2 /* Sources */,
+				8276FD002E18E6A3009988F2 /* Frameworks */,
+				8276FD012E18E6A3009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FD052E18E6A3009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FD062E18E6A3009988F2 /* JWMmacOSAppTests */,
+			);
+			name = JWMmacOSAppTests;
+			packageProductDependencies = (
+			);
+			productName = JWMmacOSAppTests;
+			productReference = 8276FD032E18E6A3009988F2 /* JWMmacOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8276FD0C2E18E6A3009988F2 /* JWMmacOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FD1B2E18E6A3009988F2 /* Build configuration list for PBXNativeTarget "JWMmacOSAppUITests" */;
+			buildPhases = (
+				8276FD092E18E6A3009988F2 /* Sources */,
+				8276FD0A2E18E6A3009988F2 /* Frameworks */,
+				8276FD0B2E18E6A3009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FD0F2E18E6A3009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FD102E18E6A3009988F2 /* JWMmacOSAppUITests */,
+			);
+			name = JWMmacOSAppUITests;
+			packageProductDependencies = (
+			);
+			productName = JWMmacOSAppUITests;
+			productReference = 8276FD0D2E18E6A3009988F2 /* JWMmacOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8276FD212E19A90B009988F2 /* JWMiPadApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FD422E19A90C009988F2 /* Build configuration list for PBXNativeTarget "JWMiPadApp" */;
+			buildPhases = (
+				8276FD1E2E19A90B009988F2 /* Sources */,
+				8276FD1F2E19A90B009988F2 /* Frameworks */,
+				8276FD202E19A90B009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8276FD232E19A90B009988F2 /* JWMiPadApp */,
+			);
+			name = JWMiPadApp;
+			packageProductDependencies = (
+			);
+			productName = JWMiPadApp;
+			productReference = 8276FD222E19A90B009988F2 /* JWMiPadApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8276FD2F2E19A90C009988F2 /* JWMiPadAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FD452E19A90C009988F2 /* Build configuration list for PBXNativeTarget "JWMiPadAppTests" */;
+			buildPhases = (
+				8276FD2C2E19A90C009988F2 /* Sources */,
+				8276FD2D2E19A90C009988F2 /* Frameworks */,
+				8276FD2E2E19A90C009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FD322E19A90C009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FD332E19A90C009988F2 /* JWMiPadAppTests */,
+			);
+			name = JWMiPadAppTests;
+			packageProductDependencies = (
+			);
+			productName = JWMiPadAppTests;
+			productReference = 8276FD302E19A90C009988F2 /* JWMiPadAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8276FD392E19A90C009988F2 /* JWMiPadAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8276FD482E19A90C009988F2 /* Build configuration list for PBXNativeTarget "JWMiPadAppUITests" */;
+			buildPhases = (
+				8276FD362E19A90C009988F2 /* Sources */,
+				8276FD372E19A90C009988F2 /* Frameworks */,
+				8276FD382E19A90C009988F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8276FD3C2E19A90C009988F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8276FD3D2E19A90C009988F2 /* JWMiPadAppUITests */,
+			);
+			name = JWMiPadAppUITests;
+			packageProductDependencies = (
+			);
+			productName = JWMiPadAppUITests;
+			productReference = 8276FD3A2E19A90C009988F2 /* JWMiPadAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8276FC8E2E18E149009988F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					8276FC952E18E149009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					8276FCA42E18E14B009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FC952E18E149009988F2;
+					};
+					8276FCAE2E18E14B009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FC952E18E149009988F2;
+					};
+					8276FCC52E18E348009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					8276FCD12E18E349009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FCC52E18E348009988F2;
+					};
+					8276FCDB2E18E349009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FCC52E18E348009988F2;
+					};
+					8276FCF42E18E6A1009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					8276FD022E18E6A3009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FCF42E18E6A1009988F2;
+					};
+					8276FD0C2E18E6A3009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FCF42E18E6A1009988F2;
+					};
+					8276FD212E19A90B009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					8276FD2F2E19A90C009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FD212E19A90B009988F2;
+					};
+					8276FD392E19A90C009988F2 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 8276FD212E19A90B009988F2;
+					};
+				};
+			};
+			buildConfigurationList = 8276FC912E18E149009988F2 /* Build configuration list for PBXProject "JWM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8276FC8D2E18E149009988F2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8276FC972E18E149009988F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8276FC952E18E149009988F2 /* JWM */,
+				8276FCA42E18E14B009988F2 /* JWMTests */,
+				8276FCAE2E18E14B009988F2 /* JWMUITests */,
+				8276FCC52E18E348009988F2 /* JWMWatchApp Watch App */,
+				8276FCD12E18E349009988F2 /* JWMWatchApp Watch AppTests */,
+				8276FCDB2E18E349009988F2 /* JWMWatchApp Watch AppUITests */,
+				8276FCF42E18E6A1009988F2 /* JWMmacOSApp */,
+				8276FD022E18E6A3009988F2 /* JWMmacOSAppTests */,
+				8276FD0C2E18E6A3009988F2 /* JWMmacOSAppUITests */,
+				8276FD212E19A90B009988F2 /* JWMiPadApp */,
+				8276FD2F2E19A90C009988F2 /* JWMiPadAppTests */,
+				8276FD392E19A90C009988F2 /* JWMiPadAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8276FC942E18E149009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCA32E18E14B009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCAD2E18E14B009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCC42E18E348009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCD02E18E349009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCDA2E18E349009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCF32E18E6A1009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD012E18E6A3009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD0B2E18E6A3009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD202E19A90B009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD2E2E19A90C009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD382E19A90C009988F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8276FC922E18E149009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCA12E18E14B009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCAB2E18E14B009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCC22E18E348009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCCE2E18E349009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCD82E18E349009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCF12E18E6A1009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FCFF2E18E6A3009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD092E18E6A3009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD1E2E19A90B009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD2C2E19A90C009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8276FD362E19A90C009988F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8276FCA72E18E14B009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FC952E18E149009988F2 /* JWM */;
+			targetProxy = 8276FCA62E18E14B009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FCB12E18E14B009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FC952E18E149009988F2 /* JWM */;
+			targetProxy = 8276FCB02E18E14B009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FCD42E18E349009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FCC52E18E348009988F2 /* JWMWatchApp Watch App */;
+			targetProxy = 8276FCD32E18E349009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FCDE2E18E349009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FCC52E18E348009988F2 /* JWMWatchApp Watch App */;
+			targetProxy = 8276FCDD2E18E349009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FCE52E18E349009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FCC52E18E348009988F2 /* JWMWatchApp Watch App */;
+			targetProxy = 8276FCE42E18E349009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FD052E18E6A3009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FCF42E18E6A1009988F2 /* JWMmacOSApp */;
+			targetProxy = 8276FD042E18E6A3009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FD0F2E18E6A3009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FCF42E18E6A1009988F2 /* JWMmacOSApp */;
+			targetProxy = 8276FD0E2E18E6A3009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FD322E19A90C009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FD212E19A90B009988F2 /* JWMiPadApp */;
+			targetProxy = 8276FD312E19A90C009988F2 /* PBXContainerItemProxy */;
+		};
+		8276FD3C2E19A90C009988F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8276FD212E19A90B009988F2 /* JWMiPadApp */;
+			targetProxy = 8276FD3B2E19A90C009988F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8276FCB72E18E14B009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8276FCB82E18E14B009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8276FCBA2E18E14B009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8276FCBB2E18E14B009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8276FCBD2E18E14B009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWM";
+			};
+			name = Debug;
+		};
+		8276FCBE2E18E14B009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWM";
+			};
+			name = Release;
+		};
+		8276FCC02E18E14B009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JWM;
+			};
+			name = Debug;
+		};
+		8276FCC12E18E14B009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JWM;
+			};
+			name = Release;
+		};
+		8276FCE82E18E349009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = JWMWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = JeremiahMorris.JWM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		8276FCE92E18E349009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = JWMWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = JeremiahMorris.JWM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		8276FCEC2E18E349009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JeremiahMorris.JWMWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWMWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWMWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		8276FCED2E18E349009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JeremiahMorris.JWMWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWMWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWMWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		8276FCEF2E18E349009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JeremiahMorris.JWMWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "JWMWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		8276FCF02E18E349009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JeremiahMorris.JWMWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "JWMWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		8276FD162E18E6A3009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMmacOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8276FD172E18E6A3009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMmacOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8276FD192E18E6A3009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMmacOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWMmacOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWMmacOSApp";
+			};
+			name = Debug;
+		};
+		8276FD1A2E18E6A3009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMmacOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWMmacOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWMmacOSApp";
+			};
+			name = Release;
+		};
+		8276FD1C2E18E6A3009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMmacOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JWMmacOSApp;
+			};
+			name = Debug;
+		};
+		8276FD1D2E18E6A3009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMmacOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JWMmacOSApp;
+			};
+			name = Release;
+		};
+		8276FD432E19A90C009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMiPadApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		8276FD442E19A90C009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMiPadApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		8276FD462E19A90C009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMiPadAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWMiPadApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWMiPadApp";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		8276FD472E19A90C009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMiPadAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWMiPadApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JWMiPadApp";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		8276FD492E19A90C009988F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMiPadAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = JWMiPadApp;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		8276FD4A2E19A90C009988F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSBX6SQ44H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JeremiahMorris.JWMiPadAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = JWMiPadApp;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8276FC912E18E149009988F2 /* Build configuration list for PBXProject "JWM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCB72E18E14B009988F2 /* Debug */,
+				8276FCB82E18E14B009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FCB92E18E14B009988F2 /* Build configuration list for PBXNativeTarget "JWM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCBA2E18E14B009988F2 /* Debug */,
+				8276FCBB2E18E14B009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FCBC2E18E14B009988F2 /* Build configuration list for PBXNativeTarget "JWMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCBD2E18E14B009988F2 /* Debug */,
+				8276FCBE2E18E14B009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FCBF2E18E14B009988F2 /* Build configuration list for PBXNativeTarget "JWMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCC02E18E14B009988F2 /* Debug */,
+				8276FCC12E18E14B009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FCE72E18E349009988F2 /* Build configuration list for PBXNativeTarget "JWMWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCE82E18E349009988F2 /* Debug */,
+				8276FCE92E18E349009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FCEB2E18E349009988F2 /* Build configuration list for PBXNativeTarget "JWMWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCEC2E18E349009988F2 /* Debug */,
+				8276FCED2E18E349009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FCEE2E18E349009988F2 /* Build configuration list for PBXNativeTarget "JWMWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FCEF2E18E349009988F2 /* Debug */,
+				8276FCF02E18E349009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FD152E18E6A3009988F2 /* Build configuration list for PBXNativeTarget "JWMmacOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FD162E18E6A3009988F2 /* Debug */,
+				8276FD172E18E6A3009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FD182E18E6A3009988F2 /* Build configuration list for PBXNativeTarget "JWMmacOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FD192E18E6A3009988F2 /* Debug */,
+				8276FD1A2E18E6A3009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FD1B2E18E6A3009988F2 /* Build configuration list for PBXNativeTarget "JWMmacOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FD1C2E18E6A3009988F2 /* Debug */,
+				8276FD1D2E18E6A3009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FD422E19A90C009988F2 /* Build configuration list for PBXNativeTarget "JWMiPadApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FD432E19A90C009988F2 /* Debug */,
+				8276FD442E19A90C009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FD452E19A90C009988F2 /* Build configuration list for PBXNativeTarget "JWMiPadAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FD462E19A90C009988F2 /* Debug */,
+				8276FD472E19A90C009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8276FD482E19A90C009988F2 /* Build configuration list for PBXNativeTarget "JWMiPadAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8276FD492E19A90C009988F2 /* Debug */,
+				8276FD4A2E19A90C009988F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8276FC8E2E18E149009988F2 /* Project object */;
+}
