@@ -11,14 +11,15 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    @State private var selectedItemID: Item.ID? = nil
 
     var body: some View {
         NavigationSplitView {
-            List {
+            List(selection: $selectedItemID) {
                 ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
+                    NavigationLink(
+                        value: item.id
+                    ) {
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
                     }
                 }
@@ -30,6 +31,12 @@ struct ContentView: View {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
                     }
+                }
+                ToolbarItem {
+                    Button(action: removeSelectedItem) {
+                        Label("Remove", systemImage: "trash")
+                    }
+                    .disabled(selectedItemID == nil)
                 }
             }
         } detail: {
@@ -49,6 +56,14 @@ struct ContentView: View {
             for index in offsets {
                 modelContext.delete(items[index])
             }
+        }
+    }
+    
+    private func removeSelectedItem() {
+        guard let id = selectedItemID, let item = items.first(where: { $0.id == id }) else { return }
+        withAnimation {
+            modelContext.delete(item)
+            selectedItemID = nil
         }
     }
 }
