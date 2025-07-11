@@ -7,12 +7,12 @@
 		<key>JWM.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>JWMWatchApp Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>JWMiPadApp.xcscheme_^#shared#^_</key>
 		<dict>
@@ -23,6 +23,39 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8276FC952E18E149009988F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8276FCA42E18E14B009988F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8276FCAE2E18E14B009988F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8276FCC52E18E348009988F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8276FCD12E18E349009988F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8276FCDB2E18E349009988F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
